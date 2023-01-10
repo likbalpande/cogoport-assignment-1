@@ -70,7 +70,7 @@ body{
     font-weight: 500;
     color:#000;
     background: #fbdc00;
-    margin: 0px !important;
+    margin: 0px ;
 }
 
 .cogoport_logo_top{
@@ -209,7 +209,7 @@ body{
 }
 
 
-.para_sysc{
+.para_sysc_big{
     margin-bottom: 20px;
     font-size: 16px;
     margin-top: 0px;
@@ -936,4 +936,382 @@ footer{
 
 .copy_right a:hover{
     text-decoration: underline;
+}
+
+.hamburger{
+    display: none;
+}
+
+.gap_box_1{
+    height:100px;
+}
+.para_sysc_small{
+    display: none;
+}
+.ossfysc_h_small{
+    display: none;
+}
+.rtty_yellow_container{
+    padding:25px 0;display: flex;justify-content: space-between;
+}
+.hiw_btns_small_container{
+    display:flex; justify-content: space-between;
+}
+.small_container{
+    display: none;
+}
+@media (max-width: 767px) {
+    h1, h2, h3, h4, h5, h6, p {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: "Ubuntu",sans-serif;
+    }
+    h1{
+        font-size:24px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 16px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+    }
+    body{
+        line-height: 1.5;
+    }
+    .nav_bar{
+        display: none;
+    }
+    #top_bar{
+        height: 56px;
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .cogoport_logo_top{
+        display: flex;
+        /* background-color: aqua; */
+        width:200px;
+        margin:0px;
+    }
+    .top_login_signup{
+        margin:0px;
+    }
+    .top_login_signup .red_btn{
+        display: none;
+    }
+    .hamburger{
+        display: flex;
+        height: 100%px;
+        align-items: center;
+        justify-content: center;
+        margin:0 16px;
+    }
+    main{
+        margin:0;
+        padding:0;
+        width:100%;
+    }
+    .go_global_container{
+        padding-top: 57px;
+        margin-top: -57px;
+        background-position: 50%;
+        width: 100%;
+        background-size: initial;
+        margin:0;
+        padding:0;
+        width:100%;
+    }
+    .go_global_container_inner{
+        display: flex;
+        flex-direction: column-reverse;
+        margin:0;
+        padding:0;
+        width: 100%;
+    }
+    .go_global_container_inner div{
+        width:fit-content;
+        margin-bottom: 16px;
+    }
+    .img_women_engineer{
+        align-self: center;
+        justify-self: center;
+        width: 100%;
+        height: auto;
+        padding:16px;
+        margin-bottom: 20px;
+    }
+    .heading_grow_faster{
+        font-size: 24px;
+        margin: 0;
+    }
+    .para_sysc_big{
+        display: none;
+    }
+    .para_sysc_small{
+        display: block;
+    }
+    .stats_container{
+        width:100%;
+    }
+    .stats{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-flow: row wrap;
+        align-content: space-between;
+        justify-content: space-between;
+        margin-bottom: -40px;
+    }
+    .stat_item{
+        width: 50%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .stat_item h2{
+        font-size: 24px;
+    }
+    .stat_item h4{
+        font-size:  14px;
+    }
+    .gap_box_1{
+        height:30px;
+    }
+    .ossfysc_container{
+        width:100%;
+    }
+    .ossfysc{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin:0;
+        padding: 0;
+        width:100%;
+    }
+    .ossfysc_h_big{
+        display: none;
+    }
+    .ossfysc_h_small{
+        display: block;
+    }
+    .ossfysc h2{
+        font-size: 24px;
+    }
+    .img_pbfm_container{
+        width:100%;
+        padding: 16px;;
+    }
+    .pbfm_img{
+        width:100%;
+    }
+    .our_products_container{
+        width:100%;
+    }
+    .heading_our_products{
+        padding: 0;
+        margin-bottom: 0;
+        text-align: inherit;
+        font-size: 20px;
+    }
+    .our_products_list_container1{
+        display: flex;
+        padding: 0;
+    }
+    .our_products_list_container2{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .our_products_list_item{
+        flex-direction: column;
+        align-items: center;
+    }
+    .our_products_list_item h4{
+        display: flex;
+        width: 100%;
+        margin-right: 0;
+        font-size: 16px
+    }
+    .our_products_list_item_right{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .our_products_list_item_right div{
+        width: 128px;
+        height: 128px;
+        padding: 0;
+        margin: 8px;
+        text-align: center;
+        }
+    .our_products_list_item_right h4{
+        width:fit-content;
+        margin-bottom: 5px;
+        font-size: 14px;
+        margin-top: 5px;
+        line-height: 1.3em;
+    }
+    .card_find_out_more{
+        margin-top: 15px;
+        margin-bottom: 6px;
+    }
+    .card_find_out_more_text{
+        font-size: 12px;
+    }
+    .trusted_by_container h3{
+        font-size: 20px;
+    }
+    .wide_container_RLauto{
+        width: 100%;
+    }
+    .rtty_yellow_container{
+        display: block;
+        padding: 0;
+    }
+    .heading_rttyscttnl{
+        padding:10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .how_it_works_container{
+        width: 100%;
+    }
+    .hiw_btns_small_container{
+        display: flex;
+        height:100px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .hiw_arrow_left_top{
+        display: none;
+    }
+    .hiw_arrow_right_top{
+        display: none;
+    }
+    .hiw_arrow_left_bottom{
+        display: none;
+    }
+    .hiw_arrow_right_bottom{
+        display: none;
+    }
+    .hiw_stages_container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .img_hiw_laptop{
+        width: 280px;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .small_container{
+        display: block;
+    }
+    .big_container{
+        display: none;
+    }
+    .hiw_item{
+        margin-bottom: 20px !important;
+        width:100%;
+    }
+    .industries_served_container{
+        margin-bottom: 0;
+    }
+    .heading_industries{
+        font-size: 20px;
+    }
+    .industries_served_container .flex_row_wrap{
+        justify-content: center;
+    }
+    .get_started_today_container{
+        margin:0;
+        width:100%;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%!important;
+        padding-right: 16px!important;
+        padding-left: 16px!important;
+    }
+    .img_pbfm_container{
+        display: flex;
+        flex: 1 1;
+        justify-content: center;
+    }
+    .img_pbfm_container img{
+        height: 360px !important;
+        width: auto !important;
+    }
+    .get_started_today_container h2{
+        margin:0 !important;
+    }
+    .get_started_today_container .red_btn{
+        display: inline-block;
+        width: 100%;
+    }
+    .grow_f_w_c_univ_c{
+        padding-bottom: 20px;
+    }
+    .grow_faster_container{
+        width: 100%;
+        display: block;
+    }
+    .grow_faster_container h3{
+        font-size: 20px;
+    }
+    .grow_faster_container .red_btn{
+        margin-top:-20px;
+    }
+    .blogs_container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .blog_item{
+        width:90%;
+        margin-right: 10px;
+        margin-bottom: 40px;
+        margin-left: 10px;
+        overflow: hidden;
+        text-align: start;
+        cursor: pointer;
+        border-radius: 8px;
+        box-shadow: 0 3px 6px hsl(0deg 0% 79% / 50%);
+    }
+    .bottom_container{
+        padding-bottom: 20px;
+    }
+    .bottom_img_container{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+    .remaining_items{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
 }

@@ -70,7 +70,8 @@ body{
     font-weight: 500;
     color:#000;
     background: #fbdc00;
-    margin: 0px ;
+    margin: 0;
+    padding: 0px 0px 0 16px;
 }
 
 .cogoport_logo_top{
@@ -101,10 +102,12 @@ body{
 
 .nav_list_item{
     display: list-item;
-    text-align: -webkit-match-parent;
     margin-left: 20px;
     border-radius: 4px;
-    font-weight: 600;
+    font-weight: 500;
+}
+.nav_list_item:last-child{
+    margin-right:10px;
 }
 
 .nav_list_item_btn{
@@ -140,7 +143,7 @@ body{
     align-items: center;
     margin-right: 16px;
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
     outline:none;
 }
@@ -198,11 +201,11 @@ body{
     font-size: 40px;
     line-height: 1.2;
     margin-top: 0;
-    font-family: "Ubuntu",sans-serif;
-    color:#000;
+    /* font-family: "Ubuntu",sans-serif; */
+    /* color:#000; */
     display: block;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
+    /* margin-block-start: 0.67em;
+    margin-block-end: 0.67em; */
     margin-inline-start: 0;
     margin-block-end: 0;
     font-weight:900;
@@ -211,7 +214,7 @@ body{
 
 .para_sysc_big{
     margin-bottom: 20px;
-    font-size: 16px;
+    /* font-size: 16px; */
     margin-top: 0px;
     display: block;
     margin-block-start: 1em;
@@ -275,9 +278,9 @@ body{
     margin:0;
     padding:0;
 
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
     font-size: 16px;
-    margin-top:0px;
+    /* margin-top:0px; */
     line-height: 1.5;
     font-family: "Ubuntu",sans-serif;
     color:#000;
@@ -346,8 +349,8 @@ body{
     font-size: 28px;
     line-height: 1.2;
 
-    margin-top: 0;
-    margin-bottom: 1em;
+    /* margin-top: 0;
+    margin-bottom: 1em; */
 
     font-family: "Ubuntu",sans-serif;
     color:#000;
@@ -383,8 +386,8 @@ body{
     font-size: 24px;
     color:#000;
 
-    margin-top: 0;
-    margin-bottom: 1em;
+    /* margin-top: 0;
+    margin-bottom: 1em; */
     font-family: "Ubuntu",sans-serif;
 }
 
@@ -418,7 +421,7 @@ body{
     font-size: 16px;
     line-height: 1.3em;
     text-align: center;
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
 
     color:#000;
     font-family: "Ubuntu",sans-serif;
@@ -459,8 +462,8 @@ body{
     text-align: center;
     font-size: 28px;
     line-height: 1.2;
-    margin-top: 0;
-    margin-bottom: 1em;
+    /* margin-top: 0;
+    margin-bottom: 1em; */
     color:#000;
     font-family: "Ubuntu",sans-serif;
 }
@@ -510,7 +513,7 @@ body{
     margin-block-end: 1em; */
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-weight: bold;
+    font-weight: 600;
     color:#000;
     font-family: "Ubuntu",sans-serif;
 }
@@ -529,8 +532,8 @@ body{
 .how_it_works_container h3{
     font-size: 28px;
     line-height: 1.2;
-    margin-top: 0;
-    margin-bottom: 1em;
+    /* margin-top: 0;
+    margin-bottom: 1em; */
     color:#000;
     font-family: "Ubuntu",sans-serif;
 
@@ -576,16 +579,18 @@ body{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-
+    
+    font-family: "PT Sans",sans-serif;
     font-weight: 600;
     color: #ee3425;
     font-size: 16px;
     
-    margin-top: 0;
-    margin-bottom: 1em;
+    /* margin-top: 0;
+    margin-bottom: 1em; */
 }
 
 .hiw_item_title{
+    font-family: "PT Sans",sans-serif;
     display: flex;
     align-items: center;
     padding: 0px 0px 10px 0px;
@@ -646,9 +651,8 @@ body{
     text-align: center;
     font-size: 28px;
     line-height: 1.2;
-
-    margin-top: 0;
-    margin-bottom: 1em;
+    /* margin-top: 0;
+    margin-bottom: 1em; */
     color:#000;
     font-family: "Ubuntu",sans-serif;
 }
@@ -908,7 +912,8 @@ footer{
     display:flex; flex-direction:column;
 }
 
-.footer2_list_type1 div{
+.footer2_list_type1 a{
+    font-size: 14px;
     line-height:2rem;
 }
 
@@ -988,13 +993,14 @@ footer{
     }
     body{
         line-height: 1.5;
+        width:100vw;
     }
     .nav_bar{
         display: none;
     }
     #top_bar{
         height: 56px;
-        width:100%;
+        width:100vw;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -1007,6 +1013,7 @@ footer{
     }
     .top_login_signup{
         margin:0px;
+        margin-right: 5px;
     }
     .top_login_signup .red_btn{
         display: none;
@@ -1133,7 +1140,7 @@ footer{
         padding: 0;
     }
     .our_products_list_container2{
-        width:100%;
+        /* width:100%; */
         display: flex;
         flex-direction: column;
     }
@@ -1218,10 +1225,13 @@ footer{
     .img_hiw_laptop{
         width: 280px;
         height: auto;
+        align-self: center;
         margin-top: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 20px;;
     }
     .small_container{
+        margin:0 auto;
+        width: fit-content;
         display: block;
     }
     .big_container{
@@ -1253,8 +1263,11 @@ footer{
         display: flex;
         flex: 1 1;
         justify-content: center;
+        margin: 0;padding: 0;
+        padding-top: 16px;
     }
     .img_pbfm_container img{
+        margin: 0;padding: 0;
         height: 360px !important;
         width: auto !important;
     }
@@ -1313,5 +1326,56 @@ footer{
     }
     footer{
         display: none;
+    }
+}
+
+@media (max-width: 1300px) and (min-width: 1200px){
+    footer{
+        width:103vw;
+    }
+}
+@media (max-width: 1200px) and (min-width: 1150px){
+    footer{
+        width:105vw;
+    }
+}
+@media (max-width: 1150px) and (min-width: 1100px){
+    footer{
+        width:110vw;
+    }
+}
+@media (max-width: 1100px) and (min-width: 1050px){
+    footer{
+        width:113vw;
+    }
+}
+@media (max-width: 1050px) and (min-width: 1000px){
+    footer{
+        width:119vw;
+    }
+}
+@media (max-width: 1000px) and (min-width: 950px){
+    footer{
+        width:125vw;
+    }
+}
+@media (max-width: 950px) and (min-width: 900px){
+    footer{
+        width:132vw;
+    }
+}
+@media (max-width: 900px) and (min-width: 850px){
+    footer{
+        width:142vw;
+    }
+}
+@media (max-width: 850px) and (min-width: 800px){
+    footer{
+        width:147vw;
+    }
+}
+@media (max-width: 800px) and (min-width: 768px){
+    footer{
+        width:155vw;
     }
 }
